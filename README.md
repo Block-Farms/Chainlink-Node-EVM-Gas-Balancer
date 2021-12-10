@@ -18,4 +18,4 @@ docker build -t maticbalancer .
 
 docker run --restart always -d --name maticbalancer maticbalancer:latest
 
-To get telegram ID use @myidbot.
+To enable telegram notifications, set Enabled to True, To get telegram ID use @myidbot.
