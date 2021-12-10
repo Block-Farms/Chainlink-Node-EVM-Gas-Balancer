@@ -15,6 +15,7 @@ Before you start:
 Running:
 
 docker build -t maticbalancer .
+
 docker run --restart always -d --name maticbalancer maticbalancer:latest
 
 To get telegram ID use @myidbot.
