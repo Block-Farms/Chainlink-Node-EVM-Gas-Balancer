@@ -13,6 +13,7 @@ Before you start:
 3. Approve spending of 0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39 (ERC20 LINK) from 0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff (Quickswap).
 
 Running:
+
 docker build -t maticbalancer .
 docker run --restart always -d --name maticbalancer maticbalancer:latest
 
